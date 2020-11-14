@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">personas</string>
-    <string name="crear_persona">Crear persona</string>
+    <string name="crear_persona">Crear personas</string>
     <string name="ingresar_nombre">ingresar nombre</string>
     <string name="numero">No.</string>
     <string name="lbl_cedula">Cedula</string>
@@ -11,4 +11,11 @@
     <string name="lbl_ingresar_cedula">cedula</string>
     <string name="Limpiar">Limpiar</string>
     <string name="guardar">Guardar</string>
+    <string name="listar">Listar</string>
+    <string name="crear">Crear</string>
+
+    <string-array name="opciones">
+        <item>@string/crear</item>
+        <item>@string/listar</item>
+    </string-array>
 </resources>

@@ -11,4 +11,5 @@ public class CrearPersona extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crear_persona);
     }
+
 }
