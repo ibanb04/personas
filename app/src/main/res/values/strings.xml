@@ -13,6 +13,7 @@
     <string name="guardar">Guardar</string>
     <string name="listar">Listar</string>
     <string name="crear">Crear</string>
+    <string name="mensaje_guardado_exitosamente">Guardado exitosamente</string>
 
     <string-array name="opciones">
         <item>@string/crear</item>
