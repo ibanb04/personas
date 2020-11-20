@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">personas</string>
+    <string name="Limpiar">clean</string>
+    <string name="apellido">Last aame</string>
+    <string name="crear">create</string>
+    <string name="crear_persona">create people</string>
+    <string name="guardar">save</string>
+    <string name="ingresar_nombre">introduce name</string>
+    <string name="lbl_apellido">Last name</string>
+    <string name="lbl_cedula">ID</string>
+    <string name="lbl_ingresar_cedula">ID</string>
+    <string name="lbl_listar_personas">oder people</string>
+    <string name="lbl_nombre">name</string>
+    <string name="listar">order</string>
+    <string name="mensaje_error_apellido">introduce last name</string>
+    <string name="mensaje_error_cedula">introduce id</string>
+    <string name="mensaje_error_nombre">introduce name</string>
+    <string name="mensaje_guardado_exitosamente">saved</string>
+    <string name="numero">No.</string>
+</resources>

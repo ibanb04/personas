@@ -39,8 +39,11 @@ public class ListarPersonas extends AppCompatActivity {
             fila.addView(columna_tres);
             fila.addView(columna_cuatro);
 
+            columna_uno.setGravity(Gravity.CENTER_HORIZONTAL);
+            columna_dos.setGravity(Gravity.CENTER_HORIZONTAL);
+            columna_tres.setGravity(Gravity.CENTER_HORIZONTAL);
+            columna_cuatro.setGravity(Gravity.CENTER_HORIZONTAL);
 
-            
             tabla.addView(fila);
         }
     }
