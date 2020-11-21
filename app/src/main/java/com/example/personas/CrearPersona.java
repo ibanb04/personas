@@ -7,8 +7,11 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.Random;
+
 public class CrearPersona extends AppCompatActivity {
    private EditText cedula, nombre, apellido;
+   private  int fotos[];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +20,11 @@ public class CrearPersona extends AppCompatActivity {
         cedula = findViewById(R.id.idCedula);
         nombre = findViewById(R.id.idNombre);
         apellido = findViewById(R.id.idApellido);
+
+        fotos = new  int[3];
+        fotos[0] = R.drawable.images;
+        fotos[1] = R.drawable.images2;
+        fotos[2] = R.drawable.images3;
     }
 
     public void guardar(View v){
@@ -26,7 +34,7 @@ public class CrearPersona extends AppCompatActivity {
             ced = cedula.getText().toString();
             nom = nombre.getText().toString();
             apell = apellido.getText().toString();
-            p = new Persona(ced, nom, apell);
+            p = new Persona(ced, nom, apell,fotoAleatoria());
             p.guardar();
             Toast.makeText(this, R.string.mensaje_guardado_exitosamente,
                     Toast.LENGTH_LONG).show();
@@ -36,6 +44,14 @@ public class CrearPersona extends AppCompatActivity {
 
     public void limpiar(View v){
         limpiar();
+    }
+
+    public int fotoAleatoria(){
+        int posFotoSel;
+        Random r = new Random();
+        posFotoSel = r.nextInt(fotos.length);
+        return fotos[posFotoSel];
+
     }
 
     public boolean validar(){
